@@ -1,0 +1,142 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "name": "CSPM Dashboard",
+      "widgets": [
+        {
+          "id": "widget-1",
+          "name": "Cloud Accounts",
+          "chartType": "pie",
+          "chartData": [
+            { "name": "Connected", "value": 3 },
+            { "name": "Not Connected", "value": 4 }
+          ]
+        },
+        {
+          "id": "widget-2",
+          "name": "Cloud Account Risk Managment",
+          "chartType": "pie",
+          "chartData": [
+            { "name": "Failed", "value": 1240 },
+            { "name": "Warning", "value": 456 },
+            { "name": "Not available", "value": 39 },
+            { "name": "Passed", "value": 7239 }
+          ]
+        },
+        {
+          "id": "widget-3",
+          "name": "Revenue Distribution",
+          "chartType": "bar",
+          "chartData": [
+            { "name": "Product A", "value": 240 },
+            { "name": "Product B", "value": 456 },
+            { "name": "Product C", "value": 139 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cwpp",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "widget-1",
+          "name": "Workload Alerts",
+          "chartType": "pie",
+          "chartData": [
+            { "name": "Connected", "value": 3 },
+            { "name": "Not Connected", "value": 4 }
+          ]
+        },
+        {
+          "id": "widget-2",
+          "name": "Cloud Account Risk Managment",
+          "chartType": "line",
+          "chartData": [
+            { "name": "Failed", "value": 1240 },
+            { "name": "Warning", "value": 456 },
+            { "name": "Not available", "value": 39 },
+            { "name": "Passed", "value": 7239 }
+          ]
+        },
+        {
+          "id": "widget-3",
+          "name": "Revenue Distribution",
+          "chartType": "pie",
+          "chartData": [
+            { "name": "Product A", "value": 240 },
+            { "name": "Product B", "value": 456 },
+            { "name": "Product C", "value": 139 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rs",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "widget-1",
+          "name": "Image Risk Assesment",
+          "chartType": "pie",
+          "chartData": [
+            { "name": "Critical", "value": 3 },
+            { "name": "High", "value": 4 },
+            { "name": "Medium", "value": 5 },
+            { "name": "Low", "value": 1 }
+          ]
+        },
+        {
+          "id": "widget-2",
+          "name": "Image Security Issues",
+          "chartType": "line",
+          "chartData": [
+            { "name": "Critical", "value": 3 },
+            { "name": "High", "value": 4 },
+            { "name": "Medium", "value": 5 },
+            { "name": "Low", "value": 1 }
+          ]
+        },
+        {
+          "id": "widget-3",
+          "name": "Image Variations",
+          "chartType": "pie",
+          "chartData": [
+            { "name": "Product A", "value": 240 },
+            { "name": "Product B", "value": 456 },
+            { "name": "Product C", "value": 139 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ts",
+      "name": "Ticket System",
+      "widgets": [
+        {
+          "id": "widget-1",
+          "name": "Ticket Assesment",
+          "chartType": "line",
+          "chartData": [
+            { "name": "Critical", "value": 3 },
+            { "name": "High", "value": 4 },
+            { "name": "Medium", "value": 5 },
+            { "name": "Low", "value": 1 }
+          ]
+        },
+        {
+          "id": "widget-2",
+          "name": "Raised Tickets",
+          "chartType": "bar",
+          "chartData": [
+            { "name": "Critical", "value": 3 },
+            { "name": "High", "value": 4 },
+            { "name": "Medium", "value": 5 },
+            { "name": "Low", "value": 1 }
+          ]
+        }
+      ]
+    }
+  ]
+}
