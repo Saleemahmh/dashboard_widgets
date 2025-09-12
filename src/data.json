@@ -1,142 +1,140 @@
 {
+  "widgetsbyId": {
+    "widget-1": {
+      "name": "Cloud Accounts",
+      "chartType": "pie",
+      "chartData": [
+        { "name": "Connected", "value": 3 },
+        { "name": "Not Connected", "value": 4 }
+      ]
+    },
+
+    "widget-2": {
+      "name": "Cloud Account Risk Managment",
+      "chartType": "pie",
+      "chartData": [
+        { "name": "Failed", "value": 1240 },
+        { "name": "Warning", "value": 456 },
+        { "name": "Not available", "value": 39 },
+        { "name": "Passed", "value": 7239 }
+      ]
+    },
+
+    "widget-3": {
+      "name": "Revenue Distribution",
+      "chartType": "bar",
+      "chartData": [
+        { "name": "Product A", "value": 240 },
+        { "name": "Product B", "value": 456 },
+        { "name": "Product C", "value": 139 }
+      ]
+    },
+
+    "widget-4": {
+      "name": "Workload Alerts",
+      "chartType": "pie",
+      "chartData": [
+        { "name": "Connected", "value": 3 },
+        { "name": "Not Connected", "value": 4 }
+      ]
+    },
+    "widget-5": {
+      "name": "Cloud Account Risk Managment",
+      "chartType": "line",
+      "chartData": [
+        { "name": "Failed", "value": 1240 },
+        { "name": "Warning", "value": 456 },
+        { "name": "Not available", "value": 39 },
+        { "name": "Passed", "value": 7239 }
+      ]
+    },
+    "widget-6": {
+      "name": "Revenue Distribution",
+      "chartType": "pie",
+      "chartData": [
+        { "name": "Product A", "value": 240 },
+        { "name": "Product B", "value": 456 },
+        { "name": "Product C", "value": 139 }
+      ]
+    },
+    "widget-7": {
+      "name": "Image Risk Assesment",
+      "chartType": "pie",
+      "chartData": [
+        { "name": "Critical", "value": 3 },
+        { "name": "High", "value": 4 },
+        { "name": "Medium", "value": 5 },
+        { "name": "Low", "value": 1 }
+      ]
+    },
+    "widget-8": {
+      "name": "Image Security Issues",
+      "chartType": "line",
+      "chartData": [
+        { "name": "Critical", "value": 3 },
+        { "name": "High", "value": 4 },
+        { "name": "Medium", "value": 5 },
+        { "name": "Low", "value": 1 }
+      ]
+    },
+    "widget-9": {
+      "name": "Image Variations",
+      "chartType": "pie",
+      "chartData": [
+        { "name": "Product A", "value": 240 },
+        { "name": "Product B", "value": 456 },
+        { "name": "Product C", "value": 139 }
+      ]
+    },
+    "widget-10": {
+      "name": "Ticket Assesment",
+      "chartType": "line",
+      "chartData": [
+        { "name": "Critical", "value": 3 },
+        { "name": "High", "value": 4 },
+        { "name": "Medium", "value": 5 },
+        { "name": "Low", "value": 1 }
+      ]
+    },
+    "widget-11": {
+      "name": "Raised Tickets",
+      "chartType": "bar",
+      "chartData": [
+        { "name": "Critical", "value": 3 },
+        { "name": "High", "value": 4 },
+        { "name": "Medium", "value": 5 },
+        { "name": "Low", "value": 1 }
+      ]
+    }
+  },
+
+ 
   "categories": [
     {
       "id": "cspm",
       "name": "CSPM Dashboard",
-      "widgets": [
-        {
-          "id": "widget-1",
-          "name": "Cloud Accounts",
-          "chartType": "pie",
-          "chartData": [
-            { "name": "Connected", "value": 3 },
-            { "name": "Not Connected", "value": 4 }
-          ]
-        },
-        {
-          "id": "widget-2",
-          "name": "Cloud Account Risk Managment",
-          "chartType": "pie",
-          "chartData": [
-            { "name": "Failed", "value": 1240 },
-            { "name": "Warning", "value": 456 },
-            { "name": "Not available", "value": 39 },
-            { "name": "Passed", "value": 7239 }
-          ]
-        },
-        {
-          "id": "widget-3",
-          "name": "Revenue Distribution",
-          "chartType": "bar",
-          "chartData": [
-            { "name": "Product A", "value": 240 },
-            { "name": "Product B", "value": 456 },
-            { "name": "Product C", "value": 139 }
-          ]
-        }
-      ]
+      "widgets": [ "widget-2", "widget-3"],
+      "allWidgets":["widget-1", "widget-2", "widget-3"]
     },
+
     {
       "id": "cwpp",
       "name": "CWPP Dashboard",
-      "widgets": [
-        {
-          "id": "widget-1",
-          "name": "Workload Alerts",
-          "chartType": "pie",
-          "chartData": [
-            { "name": "Connected", "value": 3 },
-            { "name": "Not Connected", "value": 4 }
-          ]
-        },
-        {
-          "id": "widget-2",
-          "name": "Cloud Account Risk Managment",
-          "chartType": "line",
-          "chartData": [
-            { "name": "Failed", "value": 1240 },
-            { "name": "Warning", "value": 456 },
-            { "name": "Not available", "value": 39 },
-            { "name": "Passed", "value": 7239 }
-          ]
-        },
-        {
-          "id": "widget-3",
-          "name": "Revenue Distribution",
-          "chartType": "pie",
-          "chartData": [
-            { "name": "Product A", "value": 240 },
-            { "name": "Product B", "value": 456 },
-            { "name": "Product C", "value": 139 }
-          ]
-        }
-      ]
+      "widgets": ["widget-4", "widget-5"],
+      "allWidgets": ["widget-4", "widget-5", "widget-6"]
     },
     {
       "id": "rs",
       "name": "Registry Scan",
-      "widgets": [
-        {
-          "id": "widget-1",
-          "name": "Image Risk Assesment",
-          "chartType": "pie",
-          "chartData": [
-            { "name": "Critical", "value": 3 },
-            { "name": "High", "value": 4 },
-            { "name": "Medium", "value": 5 },
-            { "name": "Low", "value": 1 }
-          ]
-        },
-        {
-          "id": "widget-2",
-          "name": "Image Security Issues",
-          "chartType": "line",
-          "chartData": [
-            { "name": "Critical", "value": 3 },
-            { "name": "High", "value": 4 },
-            { "name": "Medium", "value": 5 },
-            { "name": "Low", "value": 1 }
-          ]
-        },
-        {
-          "id": "widget-3",
-          "name": "Image Variations",
-          "chartType": "pie",
-          "chartData": [
-            { "name": "Product A", "value": 240 },
-            { "name": "Product B", "value": 456 },
-            { "name": "Product C", "value": 139 }
-          ]
-        }
-      ]
+      "widgets": ["widget-7", "widget-9"],
+       "allWidgets": ["widget-7", "widget-8", "widget-9"]
     },
     {
       "id": "ts",
       "name": "Ticket System",
-      "widgets": [
-        {
-          "id": "widget-1",
-          "name": "Ticket Assesment",
-          "chartType": "line",
-          "chartData": [
-            { "name": "Critical", "value": 3 },
-            { "name": "High", "value": 4 },
-            { "name": "Medium", "value": 5 },
-            { "name": "Low", "value": 1 }
-          ]
-        },
-        {
-          "id": "widget-2",
-          "name": "Raised Tickets",
-          "chartType": "bar",
-          "chartData": [
-            { "name": "Critical", "value": 3 },
-            { "name": "High", "value": 4 },
-            { "name": "Medium", "value": 5 },
-            { "name": "Low", "value": 1 }
-          ]
-        }
-      ]
+      "widgets": ["widget-10"],
+      "allWidgets": ["widget-10", "widget-11"]
     }
+    
   ]
 }
