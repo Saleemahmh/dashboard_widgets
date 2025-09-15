@@ -52,7 +52,7 @@ const Widgets = () => {
       chartType: newWidgetData.chartType,
       chartData: newWidgetData.chartData.length
         ? newWidgetData.chartData
-        : [{ name: "Sample", value: 100 }],
+        : [{ name: "Product A", value: 100 },{ name: "Product C", value: 170 },{ name: "Product Y", value: 500 }],
     };
 
     setWidgetsById((prev) => ({
@@ -265,7 +265,7 @@ const Widgets = () => {
                   <option value="pie">Pie Chart</option>
                 </select>
                 <button
-                  onClick={() => handleCreateWidget(creatingForCategory)}
+                  onClick={() => {handleCreateWidget(creatingForCategory); setOpen(false)}}
                   className="px-3 py-1 bg-indigo-800 text-white rounded"
                 >
                   Save Widget
